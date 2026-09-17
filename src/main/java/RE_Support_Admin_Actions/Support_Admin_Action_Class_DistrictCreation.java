@@ -1,9 +1,11 @@
 package RE_Support_Admin_Actions;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import RE_Support_Admin_Locator.RE_Support_Admin_Locator_Class;
 import Wrappers.TestLogger;
@@ -135,6 +137,86 @@ public class Support_Admin_Action_Class_DistrictCreation {
 		clickOnSubmmitButton();
 		clickonEmailPopUpNo();
 
+	}
+
+	// ===================================Search
+	// Functioanlity===============================================//
+
+	// Click district List
+	public void clickDistrictList() {
+
+		TestLogger.info("Clicking on district List");
+
+		WebWaits.visibilityOfElement(driver, supportAdminLocators.districtListButton(), Duration.ofSeconds(10));
+		supportAdminLocators.districtListButton().click();
+		TestLogger.pass("District List clicked successfully");
+	}
+
+	// Search District
+	public void searchDistrict(String districtnName) {
+
+		TestLogger.info("Searching for District: " + districtnName);
+		WebElement searchBox = supportAdminLocators.districtSearchField();
+		WebWaits.visibilityOfElement(driver, searchBox, Duration.ofSeconds(10));
+		searchBox.clear();
+		searchBox.sendKeys(districtnName);
+		TestLogger.pass("Organization name entered in search box: " + districtnName);
+	}
+
+	public boolean verifyDistrictDisplayed(String districtName) {
+
+		TestLogger.info("Waiting for District to display: " + districtName);
+
+		try {
+			List<WebElement> districtNames = supportAdminLocators.districtNames();
+			WebWaits.visibilityListOfElements(driver, districtNames, Duration.ofSeconds(15));
+			for (WebElement district : districtNames) {
+				String displayedDistrict = district.getText().trim();
+				TestLogger.info("District displayed in table: " + displayedDistrict);
+				if (displayedDistrict.equalsIgnoreCase(districtName)) {
+					TestLogger.pass("District matched successfully: " + districtName);
+					return true;
+				}
+			}
+			TestLogger.fail("District was not displayed in table: " + districtName);
+			return false;
+
+		} catch (Exception e) {
+
+			TestLogger.fail("Error while verifying district: " + districtName + " | " + e.getMessage());
+			return false;
+		}
+	}
+
+	public String searchAndGetDistrictName(String districtName) {
+		TestLogger.info("Searching for district: " + districtName);
+		WebElement distsearchBox = supportAdminLocators.districtSearchField();
+		WebWaits.visibilityOfElement(driver, distsearchBox, Duration.ofSeconds(10));
+		distsearchBox.clear();
+		distsearchBox.sendKeys(districtName);
+		TestLogger.pass("distrct name entered successfully: " + districtName);
+		List<WebElement> districtNames = supportAdminLocators.districtNames();
+		WebWaits.visibilityListOfElements(driver, districtNames, Duration.ofSeconds(15));
+		for (WebElement district : districtNames) {
+			String displayedName = district.getText().trim();
+			TestLogger.info("District displayed in table: " + displayedName);
+
+			if (displayedName.equalsIgnoreCase(districtName)) {
+
+				TestLogger.pass("District matched successfully: " + districtName);
+				return displayedName;
+			}
+		}
+
+		TestLogger.fail("District was not displayed in table: " + districtName);
+		return null;
+	}
+
+	public boolean searchAndVerifyDistrict(String districtName){
+		clickonDistectbutton();
+		clickDistrictList();
+		searchDistrict(districtName);
+		return verifyDistrictDisplayed(districtName);
 	}
 
 }

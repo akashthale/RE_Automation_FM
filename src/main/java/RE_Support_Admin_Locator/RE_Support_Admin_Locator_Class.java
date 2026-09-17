@@ -106,6 +106,36 @@ public class RE_Support_Admin_Locator_Class {
 	public WebElement districtCreatedSuccessMessage() {
 		return districtCreatedSuccessMessage;
 	}
+	
+	
+	//=========================district search functionality locator=========================================================
+	
+	@FindBy(xpath = "(//span[@class='sidemenu-item'][normalize-space()='List'])[2]")
+	private WebElement distrctlistbtn;
+
+	public WebElement districtListButton() {
+		return distrctlistbtn;
+	}
+	
+	
+	@FindBy(xpath = "//input[contains(@placeholder,'SEARCH:')]")
+	private WebElement searchfield;
+
+	public WebElement districtSearchField() {
+		return searchfield;
+	}
+	
+	
+	@FindBy(xpath = "//table/tbody/tr/td[3]")
+	private List<WebElement> distritnames;
+
+	public List<WebElement> districtNames() {
+	    return distritnames;
+	}
+	
+	
+	
+	
 
 	// ---------------------------organization
 	// locators-------------------------------------//
@@ -283,7 +313,7 @@ public class RE_Support_Admin_Locator_Class {
 		return submitbuttonfororganization;
 	}
 
-	// ========================================organization list locators
+	// ========================================organization search locators
 	// ===================================================''
 
 	@FindBy(xpath = "(//span[@class='sidemenu-item'][normalize-space()='List'])[1]")

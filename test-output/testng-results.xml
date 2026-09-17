@@ -1,77 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-17T14:35:57 IST" name="Suite" finished-at="2026-09-17T14:37:38 IST" duration-ms="100236">
+  <suite started-at="2026-09-17T22:42:57 IST" name="Default suite" finished-at="2026-09-17T22:43:42 IST" duration-ms="44210">
     <groups>
     </groups>
-    <test started-at="2026-09-17T14:35:57 IST" name="Test" finished-at="2026-09-17T14:37:38 IST" duration-ms="100236">
-      <class name="Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully@40a4337a]" started-at="2026-09-17T14:35:58 IST" name="setUp" finished-at="2026-09-17T14:36:03 IST" duration-ms="4928" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="LoginToRippleEffectsSuperAdmin()[pri:0, instance:Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully@40a4337a]" started-at="2026-09-17T14:36:03 IST" name="LoginToRippleEffectsSuperAdmin" finished-at="2026-09-17T14:36:09 IST" duration-ms="6620" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginToRippleEffectsSuperAdmin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully@40a4337a]" started-at="2026-09-17T14:36:09 IST" name="tearDown" finished-at="2026-09-17T14:36:09 IST" duration-ms="315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully -->
-      <class name="superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@1ce24091]" started-at="2026-09-17T14:36:45 IST" name="setUp" finished-at="2026-09-17T14:36:48 IST" duration-ms="3184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createORganization()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@1ce24091]" started-at="2026-09-17T14:36:48 IST" name="createORganization" finished-at="2026-09-17T14:37:22 IST" duration-ms="33693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createORganization -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@1ce24091]" started-at="2026-09-17T14:37:22 IST" name="tearDown" finished-at="2026-09-17T14:37:22 IST" duration-ms="367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@1ce24091]" started-at="2026-09-17T14:37:22 IST" name="setUp" finished-at="2026-09-17T14:37:26 IST" duration-ms="3781" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserIsAbleToSearchTheCreatedOrganization()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@1ce24091]" started-at="2026-09-17T14:37:26 IST" name="verifyUserIsAbleToSearchTheCreatedOrganization" finished-at="2026-09-17T14:37:37 IST" duration-ms="11499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserIsAbleToSearchTheCreatedOrganization -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@1ce24091]" started-at="2026-09-17T14:37:37 IST" name="tearDown" finished-at="2026-09-17T14:37:38 IST" duration-ms="287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization -->
+    <test started-at="2026-09-17T22:42:57 IST" name="Default test" finished-at="2026-09-17T22:43:42 IST" duration-ms="44210">
       <class name="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@fbd1f6]" started-at="2026-09-17T14:36:09 IST" name="setUp" finished-at="2026-09-17T14:36:13 IST" duration-ms="3836" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:42:58 IST" name="setUp" finished-at="2026-09-17T22:43:04 IST" duration-ms="6687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="districtCreation()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@fbd1f6]" started-at="2026-09-17T14:36:13 IST" name="districtCreation" finished-at="2026-09-17T14:36:41 IST" duration-ms="27263" status="PASS">
+        <test-method signature="districtCreation()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:04 IST" name="districtCreation" finished-at="2026-09-17T22:43:28 IST" duration-ms="23334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- districtCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@fbd1f6]" started-at="2026-09-17T14:36:41 IST" name="tearDown" finished-at="2026-09-17T14:36:41 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:28 IST" name="tearDown" finished-at="2026-09-17T22:43:28 IST" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@fbd1f6]" started-at="2026-09-17T14:36:41 IST" name="setUp" finished-at="2026-09-17T14:36:44 IST" duration-ms="3626" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:28 IST" name="setUp" finished-at="2026-09-17T22:43:33 IST" duration-ms="4470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="SearchTheCreatedOrganization()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@fbd1f6]" started-at="2026-09-17T14:36:44 IST" name="SearchTheCreatedOrganization" finished-at="2026-09-17T14:36:44 IST" depends-on-methods="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district.districtCreation" duration-ms="4" status="PASS">
+        <test-method signature="verifyUserIsAbleToSearchTheCreatedDistrict()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:33 IST" name="verifyUserIsAbleToSearchTheCreatedDistrict" finished-at="2026-09-17T22:43:41 IST" duration-ms="8747" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchTheCreatedOrganization -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@fbd1f6]" started-at="2026-09-17T14:36:44 IST" name="tearDown" finished-at="2026-09-17T14:36:45 IST" duration-ms="246" status="PASS">
+        </test-method> <!-- verifyUserIsAbleToSearchTheCreatedDistrict -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:41 IST" name="tearDown" finished-at="2026-09-17T22:43:42 IST" duration-ms="381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
