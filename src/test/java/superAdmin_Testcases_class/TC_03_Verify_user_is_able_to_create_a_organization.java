@@ -1,0 +1,26 @@
+package superAdmin_Testcases_class;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import RE_Login_Action_Class.Create_Login_Action_Class;
+import RE_Support_Admin_Actions.Support_Admin_Action_Class_OrganizationCreation;
+import base.BaseTest;
+
+public class TC_03_Verify_user_is_able_to_create_a_organization extends BaseTest {
+
+	public Create_Login_Action_Class loginAction;
+	public Support_Admin_Action_Class_OrganizationCreation superadmin_org_action_class;
+
+	
+	@Test
+	public void createORganization() {
+		loginAction = new Create_Login_Action_Class(driver);
+		loginAction.login(config.getProperty("username"), config.getProperty("password"));
+		superadmin_org_action_class = new Support_Admin_Action_Class_OrganizationCreation(driver);
+		superadmin_org_action_class.createOrganization("Testsborg3", "Testsborg3", "Ohio", "testfirst", "Testlast","TestingDemo@345.com", "Sunil Game");
+		Assert.assertEquals(superadmin_org_action_class.getDistrictCreatedSuccessMessage(),"SUCCESS! Organization added successfully","Organization was not created successfully");
+
+	}
+
+}

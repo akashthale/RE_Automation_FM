@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-17T10:06:56 IST" name="Default suite" finished-at="2026-09-17T10:07:35 IST" duration-ms="38431">
+    <groups>
+    </groups>
+    <test started-at="2026-09-17T10:06:56 IST" name="Default test" finished-at="2026-09-17T10:07:35 IST" duration-ms="38431">
+      <class name="superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@dd05255]" started-at="2026-09-17T10:06:56 IST" name="setUp" finished-at="2026-09-17T10:07:08 IST" duration-ms="11601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createORganization()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@dd05255]" started-at="2026-09-17T10:07:08 IST" name="createORganization" finished-at="2026-09-17T10:07:34 IST" duration-ms="26446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createORganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@dd05255]" started-at="2026-09-17T10:07:34 IST" name="tearDown" finished-at="2026-09-17T10:07:35 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
