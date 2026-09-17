@@ -1,6 +1,7 @@
 package RE_Support_Admin_Actions;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.ElementNotInteractableException;
@@ -12,7 +13,6 @@ import org.openqa.selenium.support.ui.Select;
 import RE_Support_Admin_Locator.RE_Support_Admin_Locator_Class;
 import Wrappers.TestLogger;
 import Wrappers.WebWaits;
-
 
 public class Support_Admin_Action_Class_OrganizationCreation {
 
@@ -215,7 +215,7 @@ public class Support_Admin_Action_Class_OrganizationCreation {
 		return message;
 
 	}
-	
+
 	public void createOrganization(String orgname, String orgTitle, String stateName, String FirstName, String LastName,
 			String EmailId, String supportAdmin) {
 		clickonOrganizationnuton();
@@ -240,4 +240,89 @@ public class Support_Admin_Action_Class_OrganizationCreation {
 
 	}
 
+	// ========================================org search functionality
+	// =============================================//
+
+	// Click Organization List
+	public void clickOrganizationList() {
+
+		TestLogger.info("Clicking on Organization List");
+
+		WebWaits.visibilityOfElement(driver, supportAdminLocators.clickOrganizationlistButton(),
+				Duration.ofSeconds(10));
+		supportAdminLocators.clickOrganizationlistButton().click();
+		TestLogger.pass("Organization List clicked successfully");
+	}
+
+	// Search Organization
+	public void searchOrganization(String organizationName) {
+
+		TestLogger.info("Searching for Organization: " + organizationName);
+		WebElement searchBox = supportAdminLocators.organizationSearchBox();
+		WebWaits.visibilityOfElement(driver, searchBox, Duration.ofSeconds(10));
+		searchBox.clear();
+		searchBox.sendKeys(organizationName);
+		TestLogger.pass("Organization name entered in search box: " + organizationName);
+	}
+
+	// =========================================================
+	// Verify Organization after DataTable filtering
+	// =========================================================
+
+	public boolean verifyOrganizationDisplayed(String organizationName) {
+
+        TestLogger.info("Waiting for Organization table to display: "+ organizationName);
+
+        try {
+            WebElement schoolId =supportAdminLocators.organizationSChoolId();
+            // Wait until the School ID contains the expected organization
+            boolean textDisplayed = WebWaits.waitForElementText(driver,schoolId,organizationName,Duration.ofSeconds(15));                          
+            if (textDisplayed) {
+                String displayedOrganization = schoolId.getText().trim();
+                TestLogger.info("Organization displayed in table: "+ displayedOrganization);
+                if (displayedOrganization.equals(organizationName)) {
+                    TestLogger.pass("Organization matched successfully: "+ organizationName);
+                    return true;
+                    }
+                TestLogger.fail("Organization mismatch. Expected: "+ organizationName+ " but found: "+ displayedOrganization);
+                return false;   
+            }
+
+            TestLogger.fail("Organization was not displayed in table: "+ organizationName);
+            return false;
+
+        } catch (Exception e) {
+
+            TestLogger.fail("Error while verifying organization: "+ organizationName+ " | "+ e.getMessage());
+            return false;
+            
+        }
+    }
+
+	// =========================================================
+	// Search + Verify Organization
+	// =========================================================
+
+	public String searchAndGetOrganizationName(String organizationName) {
+
+	    TestLogger.info("Searching for Organization: " + organizationName);
+	    WebElement searchBox =supportAdminLocators.organizationSearchBox();
+	    WebWaits.visibilityOfElement(driver,searchBox,Duration.ofSeconds(10));
+	    searchBox.clear();
+	    searchBox.sendKeys(organizationName);
+	    TestLogger.pass("Organization name entered successfully: "+ organizationName);
+	    WebElement schoolId =supportAdminLocators.organizationSChoolId();
+	    WebWaits.waitForElementText(driver,schoolId,organizationName,Duration.ofSeconds(15));
+	    String displayedName = schoolId.getText().trim();
+	    TestLogger.info("Organization displayed in table: "+ displayedName);
+	    return displayedName;
+	}
+	
+	
+	public boolean searchAndVerifyOrganization(String organizationName) {
+		clickonOrganizationnuton();
+		clickOrganizationList();
+		searchOrganization(organizationName);
+		return verifyOrganizationDisplayed(organizationName);
+	}
 }

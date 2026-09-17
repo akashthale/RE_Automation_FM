@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_organization">
+      <class name="superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization">
         <methods>
           <include name="setUp"/>
-          <include name="createORganization"/>
           <include name="tearDown"/>
+          <include name="verifyUserIsAbleToSearchTheCreatedOrganization"/>
         </methods>
-      </class> <!-- superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_organization -->
+      </class> <!-- superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

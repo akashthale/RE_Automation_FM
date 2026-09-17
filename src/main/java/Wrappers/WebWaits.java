@@ -92,4 +92,14 @@ public class WebWaits {
 				.equals("complete"));
 	}
 
+	public static boolean waitForElementText(WebDriver driver,
+	        WebElement element, String expectedText, Duration timeout) {
+
+	    WebDriverWait wait = new WebDriverWait(driver, timeout);
+
+	    return wait.until(ExpectedConditions.textToBePresentInElement(
+	            element, expectedText));
+	}
+
+	
 }

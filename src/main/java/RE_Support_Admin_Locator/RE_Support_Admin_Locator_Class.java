@@ -1,5 +1,7 @@
 package RE_Support_Admin_Locator;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -98,10 +100,9 @@ public class RE_Support_Admin_Locator_Class {
 		return emailPopUp;
 	}
 
-
 	@FindBy(xpath = "//div[@class='alert alert-success']")
 	private WebElement districtCreatedSuccessMessage;
-	
+
 	public WebElement districtCreatedSuccessMessage() {
 		return districtCreatedSuccessMessage;
 	}
@@ -229,10 +230,8 @@ public class RE_Support_Admin_Locator_Class {
 	// as previewModeClickTarget above.
 	@FindBy(xpath = "//input[@id='turn_on']/ancestor::span[contains(@class,'checker')][1]"
 			+ " | //input[@id='turn_on']/ancestor::div[contains(@class,'checker')][1]"
-			+ " | //input[@id='turn_on']/ancestor::label[1]"
-			+ " | //input[@id='turn_on']/following-sibling::span[1]"
-			+ " | //input[@id='turn_on']/following-sibling::label[1]"
-			+ " | //input[@id='turn_on']")
+			+ " | //input[@id='turn_on']/ancestor::label[1]" + " | //input[@id='turn_on']/following-sibling::span[1]"
+			+ " | //input[@id='turn_on']/following-sibling::label[1]" + " | //input[@id='turn_on']")
 	private WebElement legacyAccessClickTarget;
 
 	public WebElement legacyAccessClickTarget() {
@@ -283,5 +282,40 @@ public class RE_Support_Admin_Locator_Class {
 	public WebElement clickOnOrganizationSubmitButton() {
 		return submitbuttonfororganization;
 	}
+
+	// ========================================organization list locators
+	// ===================================================''
+
+	@FindBy(xpath = "(//span[@class='sidemenu-item'][normalize-space()='List'])[1]")
+	private WebElement organizationListButton;
+
+	public WebElement clickOrganizationlistButton() {
+		return organizationListButton;
+	}
+
+	// Organization search box
+	@FindBy(css = "#organization_filter input")
+	private WebElement OrgSearchBox;
+
+	public WebElement organizationSearchBox() {
+		return OrgSearchBox;
+
+	}
+
+	@FindBy(css = "#organization tbody tr td:nth-child(1)")
+	private WebElement orgschoolId;
+
+	public WebElement organizationSChoolId() {
+		return orgschoolId;
+
+	}
+	
+	@FindBy(css = "#organization tbody tr td:nth-child(1)")
+	private List<WebElement> orgschoolIds;
+
+	public List<WebElement> organizationSchoolIds() {
+	    return orgschoolIds;
+	}
+	
 
 }

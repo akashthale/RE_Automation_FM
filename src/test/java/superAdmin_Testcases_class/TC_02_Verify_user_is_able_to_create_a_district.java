@@ -17,7 +17,7 @@ public class TC_02_Verify_user_is_able_to_create_a_district extends BaseTest {
 		loginAction = new Create_Login_Action_Class(driver);
 		loginAction.login(config.getProperty("username"), config.getProperty("password"));
 		superadminactionclass = new Support_Admin_Action_Class_DistrictCreation(driver);
-		superadminactionclass.createDistrict("ED_Test_District_3E", "testfirst", "testlast", "edtestdis305@yopmail.com",
+		superadminactionclass.createDistrict("ED_Test_District_3F", "testfirst", "testlast", "edtestdis306@yopmail.com",
 				"Sunil Game");
 		Assert.assertEquals(
 		        superadminactionclass.getDistrictCreatedSuccessMessage(),
