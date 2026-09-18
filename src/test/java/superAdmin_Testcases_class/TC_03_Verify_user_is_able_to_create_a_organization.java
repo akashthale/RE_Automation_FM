@@ -17,8 +17,13 @@ public class TC_03_Verify_user_is_able_to_create_a_organization extends BaseTest
 		loginAction = new Create_Login_Action_Class(driver);
 		loginAction.login(config.getProperty("username"), config.getProperty("password"));
 		superadmin_org_action_class = new Support_Admin_Action_Class_OrganizationCreation(driver);
+<<<<<<< HEAD
 		superadmin_org_action_class.createOrganization("Test_org_dv_A3", "Test_org_dv_A3", "Ohio", "testakash", "testakash",
 				"akash.thale@aressindia.net", "Sunil Game");
+=======
+		superadmin_org_action_class.createOrganization("Testsborg99", "Testsborg99", "Ohio", "testfirst", "Testlast",
+				"TestingDemo@222.com", "Sunil Game");
+>>>>>>> db7944ef94447dbe740b8ccf02c6585d069e2410
 		Assert.assertEquals(superadmin_org_action_class.getDistrictCreatedSuccessMessage(),
 				"SUCCESS! Organization added successfully", "Organization was not created successfully");
 
@@ -26,7 +31,7 @@ public class TC_03_Verify_user_is_able_to_create_a_organization extends BaseTest
 
 	@Test(enabled = false)
 	public void verifyUserIsAbleToSearchTheCreatedOrganization() {
-		String expectdOrganization = "Testsborg9";
+		String expectdOrganization = "Testsborg99";
 		loginAction = new Create_Login_Action_Class(driver);
 		loginAction.login(config.getProperty("username"), config.getProperty("password"));
 		superadmin_org_action_class = new Support_Admin_Action_Class_OrganizationCreation(driver);
