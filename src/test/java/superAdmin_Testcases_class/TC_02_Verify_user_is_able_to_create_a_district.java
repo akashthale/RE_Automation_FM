@@ -17,19 +17,13 @@ public class TC_02_Verify_user_is_able_to_create_a_district extends BaseTest {
 		loginAction = new Create_Login_Action_Class(driver);
 		loginAction.login(config.getProperty("username"), config.getProperty("password"));
 		superadminactionclass = new Support_Admin_Action_Class_DistrictCreation(driver);
-		superadminactionclass.createDistrict("ED_Test_District_3F", "testfirst", "testlast", "edtestdis306@yopmail.com",
+		superadminactionclass.createDistrict("Test_dist_dv_A1", "testfirst", "testlast", "akash.thale@aressindia.net",
 				"Sunil Game");
 		Assert.assertEquals(
 		        superadminactionclass.getDistrictCreatedSuccessMessage(),
 		        "SUCCESS! District added successfully",
 		        "District was not created successfully"
 		);
-	}
-	
-	@Test(dependsOnMethods = "districtCreation")
-	public void SearchTheCreatedOrganization()
-	{
-		System.out.println("this code is to search the organization");
 	}
 
 }
