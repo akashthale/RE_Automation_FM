@@ -1,57 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-17T18:50:55 IST" name="Default suite" finished-at="2026-09-17T18:51:24 IST" duration-ms="28718">
+  <suite started-at="2026-09-18T10:48:35 IST" name="Default suite" finished-at="2026-09-18T10:48:53 IST" duration-ms="18405">
     <groups>
     </groups>
-    <test started-at="2026-09-17T18:50:55 IST" name="Default test" finished-at="2026-09-17T18:51:24 IST" duration-ms="28718">
-      <class name="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@dd05255]" started-at="2026-09-17T18:50:55 IST" name="setUp" finished-at="2026-09-17T18:51:00 IST" duration-ms="4345" status="PASS">
+    <test started-at="2026-09-18T10:48:35 IST" name="Default test" finished-at="2026-09-18T10:48:53 IST" duration-ms="18405">
+      <class name="superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@6a78afa0]" started-at="2026-09-18T10:48:35 IST" name="setUp" finished-at="2026-09-18T10:48:41 IST" duration-ms="5534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="districtCreation()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@dd05255]" started-at="2026-09-17T18:51:00 IST" name="districtCreation" finished-at="2026-09-17T18:51:24 IST" duration-ms="23994" status="PASS">
+        <test-method signature="verifyUserIsAbleToSearchTheCreatedOrganization()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@6a78afa0]" started-at="2026-09-18T10:48:41 IST" name="verifyUserIsAbleToSearchTheCreatedOrganization" finished-at="2026-09-18T10:48:53 IST" duration-ms="12562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- districtCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@dd05255]" started-at="2026-09-17T18:51:24 IST" name="tearDown" finished-at="2026-09-17T18:51:24 IST" duration-ms="332" status="PASS">
-=======
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2026-09-17T22:42:57 IST" name="Default suite" finished-at="2026-09-17T22:43:42 IST" duration-ms="44210">
-    <groups>
-    </groups>
-    <test started-at="2026-09-17T22:42:57 IST" name="Default test" finished-at="2026-09-17T22:43:42 IST" duration-ms="44210">
-      <class name="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:42:58 IST" name="setUp" finished-at="2026-09-17T22:43:04 IST" duration-ms="6687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="districtCreation()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:04 IST" name="districtCreation" finished-at="2026-09-17T22:43:28 IST" duration-ms="23334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- districtCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:28 IST" name="tearDown" finished-at="2026-09-17T22:43:28 IST" duration-ms="502" status="PASS">
+        </test-method> <!-- verifyUserIsAbleToSearchTheCreatedOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization@6a78afa0]" started-at="2026-09-18T10:48:53 IST" name="tearDown" finished-at="2026-09-18T10:48:53 IST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:28 IST" name="setUp" finished-at="2026-09-17T22:43:33 IST" duration-ms="4470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserIsAbleToSearchTheCreatedDistrict()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:33 IST" name="verifyUserIsAbleToSearchTheCreatedDistrict" finished-at="2026-09-17T22:43:41 IST" duration-ms="8747" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserIsAbleToSearchTheCreatedDistrict -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district@6a78afa0]" started-at="2026-09-17T22:43:41 IST" name="tearDown" finished-at="2026-09-17T22:43:42 IST" duration-ms="381" status="PASS">
->>>>>>> db7944ef94447dbe740b8ccf02c6585d069e2410
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district -->
+      </class> <!-- superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
