@@ -160,7 +160,7 @@ public class Support_Admin_Action_Class_DistrictCreation {
 		WebWaits.visibilityOfElement(driver, searchBox, Duration.ofSeconds(10));
 		searchBox.clear();
 		searchBox.sendKeys(districtnName);
-		TestLogger.pass("Organization name entered in search box: " + districtnName);
+		TestLogger.pass("district name entered in search box: " + districtnName);
 	}
 
 	public boolean verifyDistrictDisplayed(String districtName) {
