@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district">
+      <class name="Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="districtCreation"/>
+          <include name="LoginToRippleEffectsSuperAdmin"/>
         </methods>
-      </class> <!-- superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district -->
+      </class> <!-- Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

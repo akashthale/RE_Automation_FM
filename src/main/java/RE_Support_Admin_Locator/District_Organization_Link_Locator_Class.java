@@ -22,6 +22,13 @@ public class District_Organization_Link_Locator_Class {
 		return linkOrganizationbtn;
 	}
 
+	@FindBy(xpath = "//input[@id='search']")
+	private WebElement searhOrg;
+
+	public WebElement searchOrganizationInputField() {
+		return searhOrg;
+	}
+
 	public WebElement clickonSearchOrganizationInputField(String organizationName) {
 
 		String xpath = "//tr[td[2][normalize-space()='" + organizationName + "']]//input[@type='checkbox']";
@@ -34,7 +41,19 @@ public class District_Organization_Link_Locator_Class {
 	public WebElement clickOnAddButton() {
 		return addButton;
 	}
-	
-	
-	
+
+	@FindBy(xpath = "(//p[@id='statusMessage'])[2]")
+	private WebElement orgSuccess;
+
+	public WebElement orgDistLinkSucessMessage() {
+		return orgSuccess;
+	}
+
+	@FindBy(xpath = "(//button[@type='button'][normalize-space()='Ok'])[1]")
+	private WebElement okButton;
+
+	public WebElement sucesspopupOkButton() {
+		return okButton;
+	}
+
 }

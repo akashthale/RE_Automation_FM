@@ -4,13 +4,15 @@
 		<listener class-name="ExtentReportDemo.ExtentListnerClass" />
 	</listeners>
 	<test thread-count="5" name="Test">
-		<classes>
+		<classes>   
 			<class
 				name="Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully" />
 			<class
 				name="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district" />
 			<class
 				name="superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization" />
+			<class
+				name="superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_linkOorg_toDistrict" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
