@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelUtil {
 
 	// Excel file location
-	private static final String filePath = "D:\\Excelfiles\\Testdata.xlsx";
+	private static final String filePath = "/RippleEffects_Automation_Framework-3-automation-framework/Testdata/Logintestdata.xlsx";
 
 	/**
 	 * Reads all cells from a specific row of an Excel sheet.
