@@ -27,11 +27,13 @@ public class BaseTest {
 
 		if (browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
-			
 
 		} else {
 			if (browser.equalsIgnoreCase("firefox")) {
 				driver = new FirefoxDriver();
+			} else {
+
+				throw new IllegalArgumentException("Unsupported browser: " + browser);
 			}
 
 		}

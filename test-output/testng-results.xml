@@ -1,63 +1,503 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-22T18:42:19 IST" name="Default suite" finished-at="2026-09-22T18:42:26 IST" duration-ms="7028">
+  <suite started-at="2026-09-26T22:41:52 IST" name="Default suite" finished-at="2026-09-26T22:46:35 IST" duration-ms="282647">
     <groups>
     </groups>
-    <test started-at="2026-09-22T18:42:19 IST" name="Default test" finished-at="2026-09-22T18:42:26 IST" duration-ms="7028">
-      <class name="Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully@6743e411]" started-at="2026-09-22T18:42:19 IST" name="setUp" finished-at="2026-09-22T18:42:25 IST" duration-ms="5712" status="PASS">
+    <test started-at="2026-09-26T22:41:52 IST" name="Default test" finished-at="2026-09-26T22:46:35 IST" duration-ms="282647">
+      <class name="superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:41:53 IST" name="setUp" finished-at="2026-09-26T22:42:00 IST" duration-ms="7679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginToRippleEffectsSuperAdmin()[pri:0, instance:Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully@6743e411]" started-at="2026-09-22T18:42:25 IST" name="LoginToRippleEffectsSuperAdmin" finished-at="2026-09-22T18:42:26 IST" duration-ms="1048" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null
-at utilities.ExcelUtil.getRowData(ExcelUtil.java:31)
-at utilities.LoginTestData.getLoginData(LoginTestData.java:6)
-at Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully.LoginToRippleEffectsSuperAdmin(TC_01_Verify_user_is_able_to_login_sucessfully.java:17)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:42:00 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:42:27 IST" duration-ms="26847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_0101_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_0101_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg0101@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginToRippleEffectsSuperAdmin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully@6743e411]" started-at="2026-09-22T18:42:26 IST" name="tearDown" finished-at="2026-09-22T18:42:26 IST" duration-ms="217" status="PASS">
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:42:27 IST" name="tearDown" finished-at="2026-09-26T22:42:28 IST" duration-ms="498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:42:28 IST" name="setUp" finished-at="2026-09-26T22:42:34 IST" duration-ms="6012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:42:34 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:42:55 IST" duration-ms="20956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_0202_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_0202_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg0202@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:42:55 IST" name="tearDown" finished-at="2026-09-26T22:42:55 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:42:55 IST" name="setUp" finished-at="2026-09-26T22:43:01 IST" duration-ms="5844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:43:01 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:43:22 IST" duration-ms="21424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_03_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_03_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg03@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:43:22 IST" name="tearDown" finished-at="2026-09-26T22:43:23 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:43:23 IST" name="setUp" finished-at="2026-09-26T22:43:28 IST" duration-ms="5817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:43:28 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:43:50 IST" duration-ms="21316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_04_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_04_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg04@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:43:50 IST" name="tearDown" finished-at="2026-09-26T22:43:50 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:43:50 IST" name="setUp" finished-at="2026-09-26T22:43:56 IST" duration-ms="5744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:43:56 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:44:17 IST" duration-ms="21260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_05_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_05_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg05@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:44:17 IST" name="tearDown" finished-at="2026-09-26T22:44:17 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:44:17 IST" name="setUp" finished-at="2026-09-26T22:44:23 IST" duration-ms="6075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:44:23 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:44:45 IST" duration-ms="21631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_06_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_06_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg06@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:44:45 IST" name="tearDown" finished-at="2026-09-26T22:44:45 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:44:45 IST" name="setUp" finished-at="2026-09-26T22:44:52 IST" duration-ms="6249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:44:52 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:45:13 IST" duration-ms="20983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_07_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_07_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg07@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:45:13 IST" name="tearDown" finished-at="2026-09-26T22:45:13 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:45:13 IST" name="setUp" finished-at="2026-09-26T22:45:19 IST" duration-ms="5838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:45:19 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:45:40 IST" duration-ms="21048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_08_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_08_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg08@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:45:40 IST" name="tearDown" finished-at="2026-09-26T22:45:40 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:45:40 IST" name="setUp" finished-at="2026-09-26T22:45:46 IST" duration-ms="5743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:45:46 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:46:07 IST" duration-ms="21514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_09_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_09_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg09@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:46:07 IST" name="tearDown" finished-at="2026-09-26T22:46:08 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:46:08 IST" name="setUp" finished-at="2026-09-26T22:46:14 IST" duration-ms="5851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrganization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:46:14 IST" name="createOrganization" data-provider="organizationData" finished-at="2026-09-26T22:46:34 IST" duration-ms="20785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_10_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_10_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg10@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@3eb25e1a]" started-at="2026-09-26T22:46:34 IST" name="tearDown" finished-at="2026-09-26T22:46:35 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

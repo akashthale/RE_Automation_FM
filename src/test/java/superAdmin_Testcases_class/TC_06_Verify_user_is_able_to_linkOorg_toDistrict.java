@@ -7,7 +7,7 @@ import RE_Login_Action_Class.Create_Login_Action_Class;
 import RE_Support_Admin_Actions.Support_Admin_Action_Class_District_Organization_Link;
 import base.BaseTest;
 
-public class TC_04_Verify_user_is_able_to_linkOorg_toDistrict extends BaseTest {
+public class TC_06_Verify_user_is_able_to_linkOorg_toDistrict extends BaseTest {
 
 	public Create_Login_Action_Class loginAction;
 	public Support_Admin_Action_Class_District_Organization_Link distOrglink;
