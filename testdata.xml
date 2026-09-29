@@ -1,0 +1,8 @@
+<suite name="Testdata">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district"/>
+      <class name="superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Testdata -->

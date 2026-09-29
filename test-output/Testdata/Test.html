@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 29 10:48:53 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>790 seconds (790291 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_18_Distrct, testfirst18, testlast18, testdeldistrictre18@yopmail.com, Sunil Game</td>
+<td></td>
+<td>16</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_22_Org, DelTest_RE _Demo_22_Org, Alaska, testfirst22, testlast22, testdelorg22@yopmail.com, Sunil Game</td>
+<td></td>
+<td>20</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_17_Org, DelTest_RE _Demo_17_Org, Texas, testfirst17, testlast17, testdelorg17@yopmail.com, Sunil Game</td>
+<td></td>
+<td>26</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_21_Distrct, testfirst21, testlast21, testdeldistrictre21@yopmail.com, Sunil Game</td>
+<td></td>
+<td>16</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_20_Org, DelTest_RE _Demo_20_Org, Alaska, testfirst20, testlast20, testdelorg20@yopmail.com, Sunil Game</td>
+<td></td>
+<td>22</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_15_Distrct, testfirst15, testlast15, testdeldistrictre15@yopmail.com, Sunil Game</td>
+<td></td>
+<td>15</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_15_Org, DelTest_RE _Demo_15_Org, Guam, testfirst15, testlast15, testdelorg15@yopmail.com, Sunil Game</td>
+<td></td>
+<td>29</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_19_Org, DelTest_RE _Demo_19_Org, Alaska, testfirst19, testlast19, testdelorg19@yopmail.com, Sunil Game</td>
+<td></td>
+<td>22</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_13_Distrct, testfirst13, testlast13, testdeldistrictre13@yopmail.com, Sunil Game</td>
+<td></td>
+<td>17</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_21_Org, DelTest_RE _Demo_21_Org, Alaska, testfirst21, testlast21, testdelorg21@yopmail.com, Sunil Game</td>
+<td></td>
+<td>22</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_20_Distrct, testfirst20, testlast20, testdeldistrictre20@yopmail.com, Sunil Game</td>
+<td></td>
+<td>16</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_14_Org, DelTest_RE _Demo_14_Org, Texas, testfirst14, testlast14, testdelorg14@yopmail.com, Sunil Game</td>
+<td></td>
+<td>37</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_23_Org, DelTest_RE _Demo_23_Org, Alaska, testfirst23, testlast23, testdelorg23@yopmail.com, Sunil Game</td>
+<td></td>
+<td>20</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_22_Distrct, testfirst22, testlast22, testdeldistrictre22@yopmail.com, Sunil Game</td>
+<td></td>
+<td>17</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_25_Distrct, testfirst25, testlast25, testdeldistrictre25@yopmail.com, Sunil Game</td>
+<td></td>
+<td>21</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_12_Distrct, testfirst12, testlast12, testdeldistrictre12@yopmail.com, Sunil Game</td>
+<td></td>
+<td>17</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_16_Distrct, testfirst16, testlast16, testdeldistrictre16@yopmail.com, Sunil Game</td>
+<td></td>
+<td>16</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_16_Org, DelTest_RE _Demo_16_Org, Alaska, testfirst16, testlast16, testdelorg16@yopmail.com, Sunil Game</td>
+<td></td>
+<td>24</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_19_Distrct, testfirst19, testlast19, testdeldistrictre19@yopmail.com, Sunil Game</td>
+<td></td>
+<td>15</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_18_Org, DelTest_RE _Demo_18_Org, Guam, testfirst18, testlast18, testdelorg18@yopmail.com, Sunil Game</td>
+<td></td>
+<td>23</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_24_Org, DelTest_RE _Demo_24_Org, Alaska, testfirst24, testlast24, testdelorg24@yopmail.com, Sunil Game</td>
+<td></td>
+<td>29</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_17_Distrct, testfirst17, testlast17, testdeldistrictre17@yopmail.com, Sunil Game</td>
+<td></td>
+<td>15</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_23_Distrct, testfirst23, testlast23, testdeldistrictre23@yopmail.com, Sunil Game</td>
+<td></td>
+<td>23</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_12_Org, DelTest_RE _Demo_12_Org, Guam, testfirst12, testlast12, testdelorg12@yopmail.com, Sunil Game</td>
+<td></td>
+<td>20</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_11_Org, DelTest_RE _Demo_11_Org, Texas, testfirst11, testlast11, testdelorg11@yopmail.com, Sunil Game</td>
+<td></td>
+<td>21</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_25_Org, DelTest_RE _Demo_25_Org, Alaska, testfirst25, testlast25, testdelorg25@yopmail.com, Sunil Game</td>
+<td></td>
+<td>21</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_24_Distrct, testfirst24, testlast24, testdeldistrictre24@yopmail.com, Sunil Game</td>
+<td></td>
+<td>16</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_11_Distrct, testfirst11, testlast11, testdeldistrictre11@yopmail.com, Sunil Game</td>
+<td></td>
+<td>24</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district.multipleDistrictCreation()'><b>multipleDistrictCreation</b><br>Test class: superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district<br>Parameters: DelTest_RE_Demo_14_Distrct, testfirst14, testlast14, testdeldistrictre14@yopmail.com, Sunil Game</td>
+<td></td>
+<td>16</td>
+<td>superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district@5542c4ed</td></tr>
+<tr>
+<td title='superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization.createOrganization()'><b>createOrganization</b><br>Test class: superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization<br>Parameters: DelTest_RE _Demo_13_Org, DelTest_RE _Demo_13_Org, Alaska, testfirst13, testlast13, testdelorg13@yopmail.com, Sunil Game</td>
+<td></td>
+<td>21</td>
+<td>superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization@279fedbd</td></tr>
+</table><p>
+</body>
+</html>

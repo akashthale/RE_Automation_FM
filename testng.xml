@@ -1,18 +1,13 @@
-
-<suite name="Suite">
-	<listeners>
-		<listener class-name="ExtentReportDemo.ExtentListnerClass" />
-	</listeners>
-	<test thread-count="5" name="Test">
-		<classes>   
-			<class
-				name="Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully" />
-			<class
-				name="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district" />
-			<class
-				name="superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_a_organization" />
-			<class
-				name="superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_linkOorg_toDistrict" />
-		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="Testdata">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization"/>
+      <class name="superAdmin_Testcases_class.TC_03_Verify_user_is_able_to_create_multiple_district"/>
+      <class name="superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization"/>
+      <class name="superAdmin_Testcases_class.TC_06_Verify_user_is_able_to_linkOorg_toDistrict"/>
+      <class name="base.BaseTest"/>
+      <class name="Login_Testcase_class.TC_01_Verify_user_is_able_to_login_sucessfully"/>
+      <class name="superAdmin_Testcases_class.TC_02_Verify_user_is_able_to_create_a_district"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Testdata -->
