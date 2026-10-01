@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-29T14:34:34 IST" name="Default suite" finished-at="2026-09-29T14:35:18 IST" duration-ms="43184">
+  <suite started-at="2026-10-01T15:57:04 IST" name="Default suite" finished-at="2026-10-01T15:57:55 IST" duration-ms="51109">
     <groups>
     </groups>
-    <test started-at="2026-09-29T14:34:34 IST" name="Default test" finished-at="2026-09-29T14:35:18 IST" duration-ms="43184">
-      <class name="superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization@477b4cdf]" started-at="2026-09-29T14:34:34 IST" name="setUp" finished-at="2026-09-29T14:34:42 IST" duration-ms="7511" status="PASS">
+    <test started-at="2026-10-01T15:57:04 IST" name="Default test" finished-at="2026-10-01T15:57:55 IST" duration-ms="51109">
+      <class name="adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-01T15:57:04 IST" name="setUp" finished-at="2026-10-01T15:57:09 IST" duration-ms="4586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createOrganization()[pri:0, instance:superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization@477b4cdf]" started-at="2026-09-29T14:34:42 IST" name="createOrganization" finished-at="2026-09-29T14:35:04 IST" duration-ms="22478" status="PASS">
+        <test-method signature="verifyUserIsAbleToGetPasswordFromYopmail()[pri:0, instance:adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-01T15:57:09 IST" name="verifyUserIsAbleToGetPasswordFromYopmail" finished-at="2026-10-01T15:57:55 IST" duration-ms="45996" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganization -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization@477b4cdf]" started-at="2026-09-29T14:35:04 IST" name="tearDown" finished-at="2026-09-29T14:35:05 IST" duration-ms="369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization@477b4cdf]" started-at="2026-09-29T14:35:05 IST" name="setUp" finished-at="2026-09-29T14:35:10 IST" duration-ms="4902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserIsAbleToSearchTheCreatedOrganization()[pri:0, instance:superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization@477b4cdf]" started-at="2026-09-29T14:35:10 IST" name="verifyUserIsAbleToSearchTheCreatedOrganization" finished-at="2026-09-29T14:35:17 IST" duration-ms="7565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserIsAbleToSearchTheCreatedOrganization -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization@477b4cdf]" started-at="2026-09-29T14:35:17 IST" name="tearDown" finished-at="2026-09-29T14:35:18 IST" duration-ms="309" status="PASS">
+        </test-method> <!-- verifyUserIsAbleToGetPasswordFromYopmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-01T15:57:55 IST" name="tearDown" finished-at="2026-10-01T15:57:55 IST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- superAdmin_Testcases_class.TC_04_Verify_user_is_able_to_create_a_organization -->
+      </class> <!-- adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

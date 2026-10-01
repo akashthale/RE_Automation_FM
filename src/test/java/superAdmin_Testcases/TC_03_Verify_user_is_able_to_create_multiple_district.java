@@ -1,4 +1,4 @@
-package superAdmin_Testcases_class;
+package superAdmin_Testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

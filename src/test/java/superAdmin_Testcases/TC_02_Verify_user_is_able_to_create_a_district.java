@@ -1,4 +1,4 @@
-package superAdmin_Testcases_class;
+package superAdmin_Testcases;
 
 import java.io.IOException;
 

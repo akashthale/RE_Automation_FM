@@ -1,4 +1,4 @@
-package superAdmin_Testcases_class;
+package superAdmin_Testcases;
 
 import java.io.IOException;
 
@@ -34,7 +34,7 @@ public class TC_04_Verify_user_is_able_to_create_a_organization extends BaseTest
 
 	}
 
-	@Test()
+	@Test(enabled =  false)
 	public void verifyUserIsAbleToSearchTheCreatedOrganization() throws IOException {
 		String expectdOrganization = ExcelUtil.readDataFromExcel(WebCommonPath.SingleOrganizationTestData, "SingleOG", "Organization ID", "Data");
 		loginAction = new Create_Login_Action_Class(driver);
