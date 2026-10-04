@@ -1,4 +1,4 @@
-package RE_Support_Admin_Actions;
+package RE_Support_Admin_Actions_Class;
 
 import java.time.Duration;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import RE_Support_Admin_Locator.RE_Support_Admin_Locator_Class;
+import RE_Support_Admin_Locator_Class.RE_Support_Admin_Locator_Class;
 import Wrappers.TestLogger;
 import Wrappers.WebWaits;
 

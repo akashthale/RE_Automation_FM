@@ -101,5 +101,12 @@ public class WebWaits {
 	            element, expectedText));
 	}
 
-	
+	public static void sleep(long milliseconds) {
+	    try {
+	        Thread.sleep(milliseconds);
+	    } catch (InterruptedException e) {
+	        Thread.currentThread().interrupt();
+	        throw new RuntimeException("Thread was interrupted", e);
+	    }
+	}
 }

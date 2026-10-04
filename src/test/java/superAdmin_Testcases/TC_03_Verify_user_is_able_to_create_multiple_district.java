@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import DataProvider.District_DataProvider;
 import RE_Login_Action_Class.Create_Login_Action_Class;
-import RE_Support_Admin_Actions.Support_Admin_Action_Class_DistrictCreation;
+import RE_Support_Admin_Actions_Class.Support_Admin_Action_Class_DistrictCreation;
 import base.BaseTest;
 import utilities.ConfigReader;
 

@@ -5,7 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import RE_Yopmail_Locator.Yopmail_Locator_Class;
+import RE_Yopmail_Locator_Class.Yopmail_Locator_Class;
 import Wrappers.TestLogger;
 import Wrappers.WebWaits;
 

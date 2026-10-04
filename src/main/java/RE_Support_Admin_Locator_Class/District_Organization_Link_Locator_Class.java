@@ -1,4 +1,4 @@
-package RE_Support_Admin_Locator;
+package RE_Support_Admin_Locator_Class;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

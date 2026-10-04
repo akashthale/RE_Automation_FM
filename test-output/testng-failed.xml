@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization">
+      <class name="adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="createOrganization"/>
+          <include name="verifyUserIsAbleToGetPasswordFromYopmail"/>
         </methods>
-      </class> <!-- superAdmin_Testcases_class.TC_05_Verify_user_is_able_to_create_multiple_organization -->
+      </class> <!-- adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

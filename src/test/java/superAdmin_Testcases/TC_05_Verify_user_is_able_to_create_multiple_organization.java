@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import DataProvider.Organization_DataProvider;
 import RE_Login_Action_Class.Create_Login_Action_Class;
-import RE_Support_Admin_Actions.Support_Admin_Action_Class_OrganizationCreation;
+import RE_Support_Admin_Actions_Class.Support_Admin_Action_Class_OrganizationCreation;
 import base.BaseTest;
 import utilities.ConfigReader;
 

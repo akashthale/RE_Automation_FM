@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-01T15:57:04 IST" name="Default suite" finished-at="2026-10-01T15:57:55 IST" duration-ms="51109">
+  <suite started-at="2026-10-04T23:11:26 IST" name="Default suite" finished-at="2026-10-04T23:12:28 IST" duration-ms="62581">
     <groups>
     </groups>
-    <test started-at="2026-10-01T15:57:04 IST" name="Default test" finished-at="2026-10-01T15:57:55 IST" duration-ms="51109">
-      <class name="adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-01T15:57:04 IST" name="setUp" finished-at="2026-10-01T15:57:09 IST" duration-ms="4586" status="PASS">
+    <test started-at="2026-10-04T23:11:26 IST" name="Default test" finished-at="2026-10-04T23:12:28 IST" duration-ms="62581">
+      <class name="adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-04T23:11:26 IST" name="setUp" finished-at="2026-10-04T23:11:33 IST" duration-ms="6629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserIsAbleToGetPasswordFromYopmail()[pri:0, instance:adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-01T15:57:09 IST" name="verifyUserIsAbleToGetPasswordFromYopmail" finished-at="2026-10-01T15:57:55 IST" duration-ms="45996" status="PASS">
+        <test-method signature="verifyUserIsAbleToGetPasswordFromYopmail()[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-04T23:11:33 IST" name="verifyUserIsAbleToGetPasswordFromYopmail" finished-at="2026-10-04T23:12:28 IST" duration-ms="55206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToGetPasswordFromYopmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-01T15:57:55 IST" name="tearDown" finished-at="2026-10-01T15:57:55 IST" duration-ms="485" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-04T23:12:28 IST" name="tearDown" finished-at="2026-10-04T23:12:28 IST" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- adminPortal_Testcases.TC_05_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal -->
+      </class> <!-- adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

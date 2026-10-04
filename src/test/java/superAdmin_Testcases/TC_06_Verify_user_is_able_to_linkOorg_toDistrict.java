@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import RE_Login_Action_Class.Create_Login_Action_Class;
-import RE_Support_Admin_Actions.Support_Admin_Action_Class_District_Organization_Link;
+import RE_Support_Admin_Actions_Class.Support_Admin_Action_Class_District_Organization_Link;
 import base.BaseTest;
 
 public class TC_06_Verify_user_is_able_to_linkOorg_toDistrict extends BaseTest {

@@ -1,12 +1,12 @@
-package RE_Support_Admin_Actions;
+package RE_Support_Admin_Actions_Class;
 
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import RE_Support_Admin_Locator.District_Organization_Link_Locator_Class;
-import RE_Support_Admin_Locator.RE_Support_Admin_Locator_Class;
+import RE_Support_Admin_Locator_Class.District_Organization_Link_Locator_Class;
+import RE_Support_Admin_Locator_Class.RE_Support_Admin_Locator_Class;
 import Wrappers.TestLogger;
 import Wrappers.WebWaits;
 

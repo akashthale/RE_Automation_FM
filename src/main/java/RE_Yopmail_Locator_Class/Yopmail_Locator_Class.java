@@ -1,4 +1,4 @@
-package RE_Yopmail_Locator;
+package RE_Yopmail_Locator_Class;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
