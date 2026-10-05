@@ -2,20 +2,57 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-04T23:11:26 IST" name="Default suite" finished-at="2026-10-04T23:12:28 IST" duration-ms="62581">
+  <suite started-at="2026-10-05T18:05:17 IST" name="Default suite" finished-at="2026-10-05T18:06:22 IST" duration-ms="64747">
     <groups>
     </groups>
-    <test started-at="2026-10-04T23:11:26 IST" name="Default test" finished-at="2026-10-04T23:12:28 IST" duration-ms="62581">
+    <test started-at="2026-10-05T18:05:17 IST" name="Default test" finished-at="2026-10-05T18:06:22 IST" duration-ms="64747">
       <class name="adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-04T23:11:26 IST" name="setUp" finished-at="2026-10-04T23:11:33 IST" duration-ms="6629" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-05T18:05:18 IST" name="setUp" finished-at="2026-10-05T18:05:27 IST" duration-ms="9382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserIsAbleToGetPasswordFromYopmail()[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-04T23:11:33 IST" name="verifyUserIsAbleToGetPasswordFromYopmail" finished-at="2026-10-04T23:12:28 IST" duration-ms="55206" status="PASS">
+        <test-method signature="verifyUserIsAbleToGetPasswordFromYopmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-05T18:05:27 IST" name="verifyUserIsAbleToGetPasswordFromYopmail" data-provider="organizationData" finished-at="2026-10-05T18:06:21 IST" duration-ms="54076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DelTest_RE _Demo_111_Org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DelTest_RE _Demo_111_Org]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testfirst26]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testlast26]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testdelorg111@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sunil Game]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToGetPasswordFromYopmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-04T23:12:28 IST" name="tearDown" finished-at="2026-10-04T23:12:28 IST" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:adminPortal_Testcases.TC_07_Verify_user_is_able_to_get_password_from_yopmail_and_loggedin_to_adminPortal@3eb25e1a]" started-at="2026-10-05T18:06:21 IST" name="tearDown" finished-at="2026-10-05T18:06:22 IST" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
